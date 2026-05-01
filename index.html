@@ -17,9 +17,10 @@
                 overflow: hidden;
                 margin: 100px auto;
                 transition: 0.5s;
-              
+
             }
-            .card:hover{
+
+            .card:hover {
                 transform: scale(1.05);
             }
 
@@ -31,10 +32,11 @@
                 padding: 5px;
             }
 
-            .flex{
-                  display: flex;
-                  align-items: center;
-                  justify-content:space-around;
+            .flex {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-left: 15px;
             }
 
             .text {
@@ -43,20 +45,25 @@
             }
 
 
-            .pic{
+            .pic {
                 width: 80px;
                 height: 80px;
                 border-radius: 50%;
                 border: 3px solid orange;
             }
 
-            #valid{
+            #valid {
                 text-align: center;
                 letter-spacing: 2px;
-                background-color:rgba(128, 0, 128, 0.5);
+                background-color: rgba(128, 0, 128, 0.5);
                 margin-top: 18px;
-                color:white;
+                color: white;
 
+            }
+
+            span {
+                font-weight: bolder;
+                margin-right: 25px;
             }
         </style>
     </head>
@@ -67,14 +74,14 @@
         <div class="flex">
             <div class="img"><img src="./amc.jpg" alt="image" class="pic"></div>
             <div class="text">
-                <p>Name:  Abdul Majeed</p>
-                <p>Class:  Computer</p>
-                <p>Roll No:  **********</p>
-                 
+                <p><span id="spn">Name:</span> Abdul Majeed</p>
+                <p><span id="spn">Class:</span> Computer</p>
+                <p><span id="spn">Roll No:</span> **********</p>
+
             </div>
-            
+
         </div>
-<p id="valid">This card is valid up to 2028</p>
+        <p id="valid">This card is valid up to 2028</p>
     </div>
 </body>
 
